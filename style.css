@@ -1,0 +1,25 @@
+#search-bar{
+    width:300px;
+}
+#search-button{
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#search-button:hover{
+    margin: 1px solid black;
+    color: black;
+    background: white;
+    box-shadow: 8px 8px #1C1C1C;
+}
+
+.card{
+    transition-property: all;
+    transition-duration: 2s; 
+    background: wheat;
+}
+
+.card:hover{
+    box-shadow: 10px 10px wheat;
+    background: white;
+}
